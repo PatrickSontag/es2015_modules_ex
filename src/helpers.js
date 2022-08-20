@@ -1,5 +1,6 @@
 function choice(items) {
-    return items.random()
+    const randomIdx = Math.floor((Math.random() * items.length) + 1)
+    return items[randomIdx]
 }
 
 function remove(items, item) {
