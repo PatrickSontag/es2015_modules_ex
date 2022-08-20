@@ -1,12 +1,5 @@
-function choice(items) {
-    return items.random()
-}
+const fruits = [
+    "🍇","🍈","🍉","🍊","🍌","🍍","🍎","🍏","🍐","🍒","🍓","🥝","🍅","🥑"
+    ];
 
-function remove(items, item) {
-    const index = items.indexOf(item);
-    if (index > -1) {
-        items.splice(index, 1);
-        return item;
-    }
-    return undefined;
-}
+export default fruits;
